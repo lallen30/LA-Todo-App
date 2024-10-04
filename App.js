@@ -159,10 +159,10 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Todo App</Text>
+      <Text style={styles.title}>LA Todos</Text>
       <Text style={styles.welcomeMessage}>
-        Welcome to your personal Todo App! Start by adding a category, then add
-        todos to each category.
+        Welcome to your personal Todo App! Start by adding a category, then you
+        can add todos, notes, and sub-todos to each category.
       </Text>
       <FlatList
         data={data}
